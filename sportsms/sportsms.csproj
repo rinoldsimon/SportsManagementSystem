@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A8AC6AC-756D-4098-8994-6B867C555433}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sportsms</RootNamespace>
+    <AssemblyName>sportsms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>sportsms.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmbad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbad.Designer.cs">
+      <DependentUpon>frmbad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbadphoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbadphoto.Designer.cs">
+      <DependentUpon>frmbadphoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbadtour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbadtour.Designer.cs">
+      <DependentUpon>frmbadtour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbasket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbasket.Designer.cs">
+      <DependentUpon>frmbasket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbasketphotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbasketphotos.Designer.cs">
+      <DependentUpon>frmbasketphotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbaskettour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbaskettour.Designer.cs">
+      <DependentUpon>frmbaskettour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbest.Designer.cs">
+      <DependentUpon>frmbest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcollege.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcollege.Designer.cs">
+      <DependentUpon>frmcollege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcplyr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcplyr.Designer.cs">
+      <DependentUpon>frmcplyr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcrphotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcrphotos.Designer.cs">
+      <DependentUpon>frmcrphotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcrtour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcrtour.Designer.cs">
+      <DependentUpon>frmcrtour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmfootballphotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmfootballphotos.Designer.cs">
+      <DependentUpon>frmfootballphotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmfplyr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmfplyr.Designer.cs">
+      <DependentUpon>frmfplyr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmfttour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmfttour.Designer.cs">
+      <DependentUpon>frmfttour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhockeyplyr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhockeyplyr.Designer.cs">
+      <DependentUpon>frmhockeyplyr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhopho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhopho.Designer.cs">
+      <DependentUpon>frmhopho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhtour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhtour.Designer.cs">
+      <DependentUpon>frmhtour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin1.Designer.cs">
+      <DependentUpon>frmlogin1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmstate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmstate.Designer.cs">
+      <DependentUpon>frmstate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmvltour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmvltour.Designer.cs">
+      <DependentUpon>frmvltour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmvolleyplr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmvolleyplr.Designer.cs">
+      <DependentUpon>frmvolleyplr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmvophotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmvophotos.Designer.cs">
+      <DependentUpon>frmvophotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwelcome.Designer.cs">
+      <DependentUpon>frmwelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmloginreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmloginreg.Designer.cs">
+      <DependentUpon>frmloginreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmstudentreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmstudentreg.Designer.cs">
+      <DependentUpon>frmstudentreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmtour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtour.Designer.cs">
+      <DependentUpon>frmtour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwinner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwinner.Designer.cs">
+      <DependentUpon>frmwinner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwinner1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwinner1.Designer.cs">
+      <DependentUpon>frmwinner1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwinner2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwinner2.Designer.cs">
+      <DependentUpon>frmwinner2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwinner3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwinner3.Designer.cs">
+      <DependentUpon>frmwinner3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwinner4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwinner4.Designer.cs">
+      <DependentUpon>frmwinner4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwinner5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwinner5.Designer.cs">
+      <DependentUpon>frmwinner5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="spsDataSet.cs">
+      <DependentUpon>spsDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="spsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spsDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmbad.resx">
+      <DependentUpon>frmbad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbadphoto.resx">
+      <DependentUpon>frmbadphoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbadtour.resx">
+      <DependentUpon>frmbadtour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbasket.resx">
+      <DependentUpon>frmbasket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbasketphotos.resx">
+      <DependentUpon>frmbasketphotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbaskettour.resx">
+      <DependentUpon>frmbaskettour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbest.resx">
+      <DependentUpon>frmbest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcollege.resx">
+      <DependentUpon>frmcollege.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcplyr.resx">
+      <DependentUpon>frmcplyr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcrphotos.resx">
+      <DependentUpon>frmcrphotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcrtour.resx">
+      <DependentUpon>frmcrtour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfootballphotos.resx">
+      <DependentUpon>frmfootballphotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfplyr.resx">
+      <DependentUpon>frmfplyr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfttour.resx">
+      <DependentUpon>frmfttour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmhockeyplyr.resx">
+      <DependentUpon>frmhockeyplyr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmhopho.resx">
+      <DependentUpon>frmhopho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmhtour.resx">
+      <DependentUpon>frmhtour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin1.resx">
+      <DependentUpon>frmlogin1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmstate.resx">
+      <DependentUpon>frmstate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmvltour.resx">
+      <DependentUpon>frmvltour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmvolleyplr.resx">
+      <DependentUpon>frmvolleyplr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmvophotos.resx">
+      <DependentUpon>frmvophotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwelcome.resx">
+      <DependentUpon>frmwelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmloginreg.resx">
+      <DependentUpon>frmloginreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmstudentreg.resx">
+      <DependentUpon>frmstudentreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtour.resx">
+      <DependentUpon>frmtour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwinner.resx">
+      <DependentUpon>frmwinner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwinner1.resx">
+      <DependentUpon>frmwinner1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwinner2.resx">
+      <DependentUpon>frmwinner2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwinner3.resx">
+      <DependentUpon>frmwinner3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwinner4.resx">
+      <DependentUpon>frmwinner4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwinner5.resx">
+      <DependentUpon>frmwinner5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="spsDataSet.xsc">
+      <DependentUpon>spsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="spsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>spsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="spsDataSet.xss">
+      <DependentUpon>spsDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sports.jpg" />
+    <None Include="Resources\sports1.jpg" />
+    <None Include="Resources\royalty-free-vector-cricket-player-logo-5-by-patrimonio-2633.jpg" />
+    <None Include="Resources\3791Cricket-Player.jpg" />
+    <None Include="Resources\jpg.jpg" />
+    <None Include="Resources\Football1.jpg" />
+    <None Include="Resources\Football11.jpg" />
+    <None Include="Resources\Badminton Wallpapers 04.jpg" />
+    <None Include="Resources\Badminton Wallpapers 041.jpg" />
+    <None Include="Resources\BWF_Badminton.jpg" />
+    <None Include="Resources\Capture.PNG" />
+    <None Include="Resources\13644958851130260220.JPG" />
+    <None Include="Resources\1920x1440-lebron-james-miami-heat-player-sport-high-definition-wallpaper.jpg" />
+    <None Include="Resources\Sports-Basketball.jpg" />
+    <None Include="Resources\MyCricketVideos-BG1.jpg" />
+    <None Include="Resources\thumbnail.jpg" />
+    <None Include="Resources\komt-er-een-hockey-club-in-tessenderlo-id4855053-1000x800-n.jpg" />
+    <None Include="Resources\Silhouette_Volleyball.JPG" />
+    <None Include="Resources\o.165824.jpg" />
+    <None Include="Resources\o.1658241.jpg" />
+    <None Include="Resources\Silhouette_Volleyball1.JPG" />
+    <None Include="Resources\allsport.jpg" />
+    <None Include="Resources\jpg1.jpg" />
+    <None Include="Resources\thumbnail1.jpg" />
+    <None Include="Resources\Volleyball1.jpg" />
+    <None Include="Resources\kickingsoccer.jpg" />
+    <None Include="Resources\football-game-player.jpg" />
+    <None Include="Resources\Jeremy-Shu-How-Lin-Pitching-Basketball-Player-Sport-Celebrity.jpg" />
+    <None Include="Resources\61757_basketball-every-monday.jpg" />
+    <None Include="Resources\Field Hockey.png" />
+    <Content Include="sps.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sps_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>sps.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
